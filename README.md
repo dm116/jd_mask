@@ -35,6 +35,17 @@ cookies_string,sku_id,DEFAULT_USER_AGENT(和cookie获取同一个地方就会看
 
 启动时按照提示操作输入需要的功能即可
 
+### 获取 eid,fp,riskControl
+在 console 输入
+```
+var eid = $('#eid').val();
+console.log('eid: '+eid)
+var fp = $('#fp').val();
+console.log('fp: '+fp)
+var riskControl = $('#riskControl').val();
+console.log('riskControl: '+riskControl)
+```
+
 ## 更新记录
 
 - 【2020.02.24】新增微信推送,去除了冗余代码,进行模块化处理.
